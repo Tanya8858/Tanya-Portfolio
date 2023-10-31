@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+
+    
+</head>
+
+<body class="body-color">
+    <!-- header started here -->
+    <div class="main">
+
+  <div class="navheader">
+    <h1>Tanya's <br>Portfolio</h1>
+
+    <div class="nav-links">
+       <a href="{{ url_for('index')}}" class="link">Home</a>
+        <a href="#about" class="link">About Me</a>
+        <a href="#resume" class="link">My Resume</a>
+        <a href="#projects" class="link">My Projects</a>
+        <a href="#contact" class="link">Contact Me</a>
+        <i class="bi bi-list" onclick="showsidebar()"></i>
+    </div>
+    <div class="sidebar">
+      <i class="bi bi-x" onclick="hidesidebar()"></i>
+       <a href="{{ url_for('index')}}" class="link">Home</a>
+        <a href="#about" class="link">About Me</a>
+        <a href="#resume" class="link">My Resume</a>
+        <a href="#projects" class="link">My Projects</a>
+        <a href="#contact" class="link">Contact Me</a>
+        
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+        <!-- Header end here -->
+      
+        <!-- Homearea started here -->
+         <section class="banner" style="background-image: url('./static/figmaitem/background3.jpg'); width: auto; background-attachment: fixed;">
+        <div class="container profile " >
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profileimg">
+                        <img src="static/figmaitem/profile.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="text-container">
+                        <h1 class="animated-text main">Hi, I am <span class="color">Tanya Gupta</span></h1>
+                        <h1 class="animated-text">Innovative software engineer delivering excellence.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="social-link">
+                        <a href="https://www.linkedin.com/in/tanya-gupta-902b6a204/" target="blank" class="social-icon linkden"
+                            style="background-image: url(static/figmaitem/Linkden.png);"></a>
+                        <a href="https://twitter.com/TanyaGu28936891" target="blank" class="social-icon twitter"
+                            style="background-image: url(static/figmaitem/twitter.png);"></a>
+                        <a href="https://www.instagram.com/t_a_n_u75775/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3D%252F%26__coig_login%3D1" target="blank" class="social-icon instagram"
+                            style="background-image: url(static/figmaitem/instagram.png);"></a>
+                        <a href="https://github.com/Tanya8858" target="blank" class="social-icon github"
+                            style="background-image: url(static/figmaitem/github3.png);"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Homearea Ends here -->
+
+
+
+        <!-- Experiance starts here -->
+        <div class="rn-resume-area rn-section-gap section-separator" id="about">
+    <div class="heading">
+        <h2 class="mb-5">What I Do</h2>
+    </div>
+    <div class="container about reveal">
+        <div class="row">
+
+
+            <div class="col-md-4">
+                <div class="experience">
+                    <img src="static/figmaitem/webdev.jpeg" height="200px" width="100%" alt="">
+                    <div class="img-text">
+                        <p>I undertook a 3-month web development internship at CSS Founder Pvt Ltd, Noida, focusing on
+                            the key project "Khan & Shirohi."</p>
+                        <a href="https://www.linkedin.com/in/tanya-gupta-902b6a204/" class="link-rotate"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                    <h2>Web Development <br>Internship</h2>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="experience">
+                    <img src="static/figmaitem/Pythondevelpoer.png" height="200px" width="100%" alt="">
+                    <div class="img-text">
+                        <p>
+                            I completed a 2-month Python development internship at Muhsee
+                            Pvt Ltd, specializing in Flask. My key project was "PoolPayment."</p>
+                        <a href="https://www.linkedin.com/in/tanya-gupta-902b6a204/" class="link-rotate"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                    <h2>Python Development <br>Internship</h2>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="experience">
+                    <img src="static/figmaitem/front-end.webp" height="200px" width="100%" alt="">
+                    <div class="img-text">
+                        <p>
+                            
+I am currently gaining experience in front-end development at Salesqueen Software Solution, with a focus on their ongoing project.</p>
+                        <a href="https://www.linkedin.com/in/tanya-gupta-902b6a204/" class="link-rotate"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                            </svg></a>
+                    </div>
+                    <h2>Front-End Development <br>Internship</h2>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+        <!-- Experiance ends here -->
+
+       
+       
+
+       <!-- My Resume Started here -->
+       <section id="resume">
+    <div class="rn-resume-area rn-section-gap section-separator" id="resume">
+        <div class="container reveal">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class=" exepheading section-title text-center   mb-5 heading">
+                        <h2>My Resume</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-45">
+                <div class="col-lg-12">
+                    <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="education-tab" data-bs-toggle="tab" href="#education"
+                                role="tab" aria-controls="education" aria-selected="true">education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="professional-tab" data-bs-toggle="tab" href="#professional"
+                                role="tab" aria-controls="professional" aria-selected="false">professional
+                                Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="experience-tab" data-bs-toggle="tab" href="#experience" role="tab"
+                                aria-controls="experience" aria-selected="false">experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="interview-tab" data-bs-toggle="tab" href="#interview" role="tab"
+                                aria-controls="interview" aria-selected="false">Hobbies</a>
+                        </li>
+                    </ul>
+
+                    <!-- Start Tab Content Wrapper  -->
+                    <div class="rn-nav-content tab-content" id="myTabContents">
+                        <!-- Start Single Tab  -->
+                        <div class="tab-pane fade single-tab-area active show" id="education" role="tabpanel"
+                            aria-labelledby="education-tab">
+                            <div class="personal-experience-inner mt--40">
+                                <div class="row">
+                                    <!-- Start Skill List Area  -->
+                                    <div class="col-lg-6 col-md-12 col-12">
+                                        <div class="content">
+                                            <span class="subtitle ml-5">2017- 2019</span>
+                                            <h4 class="maintitle ml-5">Schooling</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Heigh School</h4>
+                                                                <span>M.V.P.Girls Inter College, Baberu, Banda
+                                                                    (UP)</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2017</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">I successfully completed high school with
+                                                            a remarkable
+                                                            88% score, reflecting my dedication to academic excellence
+                                                            and commitment.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4> Intermediate</h4>
+                                                                <span>M.V.P.Girls Inter College, Baberu, Banda
+                                                                    (UP)</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2019</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">I accomplished my intermediate studies
+                                                            with a commendable
+                                                            78% performance, showcasing my diligent approach to learning
+                                                            and achievement.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+
+                                    <!-- Start Skill List Area 2nd  -->
+                                    <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                        <div class="content">
+                                           <span class="subtitle ml-5">2019 - 2023</span>
+                                            <h4 class="maintitle ml-5">College</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>B.Tech. IN CSE</h4>
+                                                                <span>Kalicharan Nigam Institute of Technology, Banda
+                                                                    </span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2023</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">I earned a B.Tech in Computer Science and
+                                                            Engineering,
+                                                            equipping me with advanced technical skills  for innovation in the technology field.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                
+                                                
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4> Cetifications</h4>
+                                                                <span>I did some form online plateform like Internshala</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2023</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description"> I did certifications from Internshala and IBM, highlighting my expertise in web
+                                                             development and OpenAI, that put the reflect in my career.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+
+                                    <!--  End Skill List Area  -->
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- End Single Tab  -->
+
+                        <!-- Start Single Tab  -->
+                        <div class="tab-pane fade" id="professional" role="tabpanel" aria-labelledby="professional-tab">
+                            <div class="personal-experience-inner mt--40 mb-5">
+                                <div class="row row--40">
+
+                                    <!-- Start Single Progressbar  -->
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="progress-wrapper">
+                                            <div class="content">
+                                                <span class="subtitle">Features</span>
+                                                <h4 class="maintitle">Front-End Skills</h4>
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">HTML</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.5s" data-wow-delay=".3s"
+                                                            role="progressbar"
+                                                            style="width: 80%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">
+                                                            <span class="percent-label">80%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">CSS, Bootstrap</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.6s" data-wow-delay=".4s"
+                                                            role="progressbar"
+                                                            style="width: 80%; visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="80">
+                                                            <span class="percent-label">80%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">FIGMA</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.7s" data-wow-delay=".5s"
+                                                            role="progressbar"
+                                                            style="width: 60%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="50">
+                                                            <span class="percent-label">60%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">CANVA</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.8s" data-wow-delay=".6s"
+                                                            role="progressbar"
+                                                            style="width: 75%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">
+                                                            <span class="percent-label">75%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">DESIGN Skill</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.9s" data-wow-delay=".7s"
+                                                            role="progressbar"
+                                                            style="width: 90%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.7s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percent-label">90%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progressbar  -->
+
+                                    <!-- Start Single Progressbar  -->
+                                    <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
+                                        <div class="progress-wrapper">
+                                            <div class="content">
+                                                <span class="subtitle">Features</span>
+                                                <h4 class="maintitle">Backend Development Skill</h4>
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">Python, Flask/FastAPI</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.5s" data-wow-delay=".3s"
+                                                            role="progressbar"
+                                                            style="width: 80%; visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percent-label">80%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">Core Java</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.6s" data-wow-delay=".4s"
+                                                            role="progressbar"
+                                                            style="width: 75%; visibility: visible; animation-duration: 0.6s; animation-delay: 0.4s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">
+                                                            <span class="percent-label">75%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">JAVASCRIPT</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.7s" data-wow-delay=".5s"
+                                                            role="progressbar"
+                                                            style="width: 40%; visibility: visible; animation-duration: 0.7s; animation-delay: 0.5s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="40">
+                                                            <span class="percent-label">40%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">GitHub</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.8s" data-wow-delay=".6s"
+                                                            role="progressbar"
+                                                            style="width: 60%; visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percent-label">60%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                                <!-- Start Single Progress Charts -->
+                                                <div class="progress-charts">
+                                                    <h6 class="heading heading-h6">ChatGPT</h6>
+                                                    <div class="progress">
+                                                        <div class="progress-bar wow fadeInLeft"
+                                                            data-wow-duration="0.9s" data-wow-delay=".7s"
+                                                            role="progressbar"
+                                                            style="width: 80%; visibility: visible; animation-duration: 0.9s; animation-delay: 0.7s; animation-name: fadeInLeft;"
+                                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                            <span class="percent-label">80%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single Progress Charts -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Single Progressbar  -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Tab  -->
+
+                        <!-- Start Single Tab  -->
+                        <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                            <div class="personal-experience-inner mt--40">
+                                <div class="row">
+                                    <!-- Start Skill List Area  -->
+                                    <div class="col-lg-6 col-md-12 col-12">
+                                        <div class="content">
+                                            <!-- <span class="subtitle"></span> -->
+                                            <h4 class="maintitle">Development</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Web Development</h4>
+                                                                <span>CSSFounder Pvt. Ltd.</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>3 Months</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">I successfully completed a web
+                                                            development internship at CSSFounder Pvt. Ltd., gaining
+                                                            hands-on
+                                                            experience in building dynamic and responsive websites while
+                                                            contributing to real-world projects.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                <!-- Start Single List  -->
+
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Python Development</h4>
+                                                                <span>Muhsee Pvt. Ltd.</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2 Months</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">I successfully completed a Python
+                                                            development internship, honing my skills in Python
+                                                            programming and Flask framework, paving the way for
+                                                            proficient and dynamic web application development.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+
+                                    <!-- Start Skill List Area 2nd  -->
+                                    <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                        <div class="content">
+                                            <!-- <span class="subtitle">2007 - 2010</span> -->
+                                            <h4 class="maintitle">Designing</h4>
+                                            
+                                           <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Fron-End Development</h4>
+                                                                <span>Salesqueen Software Solution</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>Working</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">I am currently immersed in a frontend development internship, actively engaging with HTML, CSS,
+                                                             Bootstrap, and JavaScript. My primary focus involves contributing to the company's flagship project.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                           <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div class="resume-single-list">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Graphic Designing</h4>
+                                                                <span>Dulhan Beauty Makeover</span>
+                                                            </div>
+                                                            <div class="date-of-time">
+                                                                <span>2 Year</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="description">With a rich background in graphic design,
+                                                            I possess 2 years of experience crafting
+                                                            visually engaging content using tools like Canva, Microsoft
+                                                            Designer, and Figma for impactful UX/UI designs.</p>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Tab  -->
+
+                        <!-- Start Single Tab  -->
+                        <div class="tab-pane fade" id="interview" role="tabpanel" aria-labelledby="interview-tab">
+                            <div class="personal-experience-inner mt--40 mb-5">
+                                <div class="row">
+                                    <!-- Start Skill List Area  -->
+                                    <div class="col-lg-6 col-md-12 col-12">
+                                        <div class="content">
+                                            <!-- <span class="subtitle">2007 - 2010</span> -->
+                                            <h4 class="maintitle">Hobbies</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300"
+                                                    data-aos-once="true"
+                                                    class="resume-single-list aos-init aos-animate">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Book Reading</h4>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500"
+                                                    data-aos-once="true"
+                                                    class="resume-single-list aos-init aos-animate">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Sketching</h4>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700"
+                                                    data-aos-once="true"
+                                                    class="resume-single-list aos-init aos-animate">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Travelling</h4>
+                                                                <!-- <span>University of Studies (1997 - 2001)</span> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+
+                                    <!-- Start Skill List Area 2nd  -->
+                                    <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
+                                        <div class="content">
+                                            <!-- <span class="subtitle">2007 - 2010</span> -->
+                                            <h4 class="maintitle">Soft Skills</h4>
+                                            <div class="experience-list">
+
+                                                <!-- Start Single List  -->
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700"
+                                                    data-aos-once="true"
+                                                    class="resume-single-list aos-init aos-animate">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Problem-Solving</h4>
+                                                                <!-- <span>University of Studies (1997 - 2001)</span> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700"
+                                                    data-aos-once="true"
+                                                    class="resume-single-list aos-init aos-animate">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Analytical-Thinking</h4>
+                                                                <!-- <span>University of Studies (1997 - 2001)</span> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                                <!-- Start Single List  -->
+                                                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700"
+                                                    data-aos-once="true"
+                                                    class="resume-single-list aos-init aos-animate">
+                                                    <div class="inner">
+                                                        <div class="heading">
+                                                            <div class="title">
+                                                                <h4>Time-Management</h4>
+                                                                <!-- <span>University of Studies (1997 - 2001)</span> -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- End Single List  -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Skill List Area  -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Tab  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button mt-5">
+    <button id="downloadButton">Download Resume</button>
+</div>
+
+    </div>
+</section>
+<!-- Education End here -->
+<!-- Education End here -->
+<!-- My Resume section ends here -->
+       <!-- My Resume section ends here -->
+
+
+        <!-- Project section started here -->
+           <section id="projects" >
+        <div class="projectsection reveal">
+            <div class="heading">
+                <h2 class="mb-5">My Project</h2>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="projetctblock">
+                            <div class="image-container">
+                                <a href="https://github.com/Tanya8858/ShopKaro" target="blank" class="clickme">Click Me</a>
+                                <img src="static/figmaitem/ShopKaro.png" height="200" width="100%" alt="ShopKaro">
+                                <!-- <div class="overlay"></div> -->
+                            </div>
+                            <div class="projecttext">
+                                <p>ShopKaro<br>E-Comerce website</p>
+                                <p>Python, Django</p>
+                                <!-- <a href="">Go to Project</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="projetctblock">
+                            <div class="image-container">
+                                <a href="https://khanandsirohi.com/" target="blank" class="clickme">Click Me</a>
+                                <img src="static/figmaitem/Khansirohi.png" height="200" width="100%" alt="ShopKaro">
+                            </div>
+                            <div class="projecttext">
+                                <p>Khan & Sirohi
+                                    <br>Satatic Website
+                                </p>
+                                <p>HTML, CSS, Bootstrap</p>
+                                <!-- <a href="">Go to Project</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="projetctblock">
+                            <div class="image-container">
+                                <a href="https://github.com/Tanya8858/Pool_payment-" target="blank" class="clickme">Click Me</a>
+                                <img src="static/figmaitem/poolpayment.png" height="200" width="100%" alt="ShopKaro">
+                            </div>
+                            <div class="projecttext">
+                                <p>PoolPaymet
+                                    <br>Web App
+                                </p>
+                                <p>Python, Flask</p>
+                                <!-- <a href="">Go to Project</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="projetctblock">
+                            <div class="image-container">
+                                <a href="https://drive.google.com/drive/u/0/folders/1ooyZFOmvAO8RAHeGo2TBIBLkEOH9GPH2" target="blank" class="clickme">Click Me</a>
+                                <img src="static/figmaitem/Parlor.png" height="200" width="100%" alt="ShopKaro">
+                            </div>
+                            <div class="projecttext">
+                                <p>Parlor<br>Advertesment Templete</p>
+                                <p>Canva, Microsoft Designer</p>
+                                <!-- <a href="">Go to Project</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- Project Area end here -->
+
+         
+        <!-- Contact area started Here -->
+         <section id="contact">
+    <div class="rn-resume-area rn-section-gap section-separator reveal" id="contact">
+        <div class="contactarea">
+            <div class="heading">
+                <h2 class="mb-5">Contact Me</h2>
+            </div>
+
+            <div class="container">
+                <div class="container-center">
+                <div class="row justify-content-center align-items-center">
+                    
+                        <div class="col-md-6">
+                            <form action="/.netlify/functions/contact" class="formdesing" id="contact-form" method="POST">
+                                <div class="namephone">
+                                    <div class="col-md-6 padding">
+                                        <div class="form-group">
+                                            <label for="name">Name</label>
+                                            <input class="form-control name" type="text" name="name" id="name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 padding">
+                                        <div class="group">
+                                            <label for="number">Phone</label>
+                                            <input class="form-control" type="tel" name="number" id="number"  required>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-12 padding">
+                                    <div class="group">
+                                        <label for="mail">Email</label>
+                                        <input class="form-control" type="email" name="mail" id="mail" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 padding">
+                                    <div class="group">
+                                        <label for="subject">Subject</label>
+                                        <input class="form-control" type="text" name="subject" id="subject" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 padding">
+                                    <div class="group">
+                                        <label for="subject">Message</label>
+                                        <textarea class="form-control" name="message" id="massage" cols="30"
+                                            rows="5" required></textarea>
+                                    </div>
+                                </div>
+                                   <div class="text-center">
+                                   <button type="submit" class="btn btn-primary">Send</button>
+                                   
+                                    </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="aboutcontact">
+                                <img src="static/figmaitem/handshak2.jpeg" width="100%" height="200px" alt="">
+                                <div class="contacttext">
+                                    <h3>Tanya Gupta</h3>
+                                    <h6>Web Developer</h6>
+                                    <p>I am available for freelance work. Connect with me via mail and call in to my
+                                        account.</p>
+                                    <div class="phonemail">
+                                        <p>Phone: <a href="tel:8858358983">+91 8858358983</a><br>
+                                            Email: <a href="mailto:tanyagupta2804@gmail.com">tanyagupta2804@gmail.com</a></p>
+                                    </div>
+                                    <div class="social-link contacsocial">
+                                        <a href="#" class="social-icon linkden"
+                                            style="background-image: url(static/figmaitem/Linkden.png);"></a>
+                                        <a href="#" class="social-icon twitter"
+                                            style="background-image: url(static/figmaitem/twitter.png);"></a>
+                                        <a href="#" class="social-icon instagram"
+                                            style="background-image: url(static/figmaitem/instagram.png);"></a>
+                                        <a href="#" class="social-icon github"
+                                            style="background-image: url(static/figmaitem/github3.png);"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- Contact area end hee -->
+
+
+        <!--footer started here-->
+        <section id="footer">
+        <div class="footer">
+            <h3>© 2023 Tanya Gupta. All rights reserved</h3>
+        </div>
+        </section>
+        <!-- footer ends there -->
+    </section>
+
+
+
+    <script src="script.js"></script>
+    <!-- bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+ 
+    <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function() {
+
+     window.addEventListener('scroll', reveal);
+
+     function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+        for(var i = 0; i< reveals.length; i++){
+
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if(revealtop < windowheight - revealpoint){
+                reveals[i].classList.add('active');
+            }
+            else{
+                reveals[i].classList.remove('active');
+            }
+
+        }
+     }
+     });
+    </script>
+    
+  <script>
+    // In script.js
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const phone = document.getElementById("phone").value;
+    const email = document.getElementById("email").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+
+    // Send form data to a Netlify function
+    fetch("/.netlify/functions/contact", {
+        method: "POST",
+        body: JSON.stringify({ name, email, message }),
+    })
+    .then(response => {
+        // Handle the response here
+        console.log(response);
+    });
+
+    this.reset();
+});
+</script>
+
+    <!-- Include jQuery library in your HTML if not already included -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
